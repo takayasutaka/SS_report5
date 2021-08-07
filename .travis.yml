@@ -1,0 +1,4 @@
+language: bash
+script:
+        - echo start shell test script.
+        - ./check_gcm.sh
