@@ -5,7 +5,7 @@ err="/tmp/$$-error"
 
 #1 引数が2つ渡されなかった場合
 echo "エラーです。引数を２つ渡してください。" > $ans
-./gcm.sh 2 > $result
+./gcm.sh 3 > $result
 diff $ans $result || echo "error in 1" >> $err
 
 #2 第一引数が数字でない場合
