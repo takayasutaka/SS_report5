@@ -16,8 +16,6 @@ if [ $? -ge 2 ]; then
     exit 1;
 fi
 
-echo $1と$2の最大公約数を求めます。
-
 if [ $1 -eq $2 ]; then
     echo $1が最大公約数です。
     exit 0;
