@@ -1,5 +1,3 @@
 language: bash
 script:
-        - echo hello
-        - echo start shell test script.
         - ./check_gcm.sh
